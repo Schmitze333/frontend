@@ -1,0 +1,157 @@
+/* 
+pseudo clases: hover, focus, visited
+*/
+
+
+
+body {
+	background-color: lightgray	;
+	font-family: Verdana, Times, serif;
+	font-weight: bold;
+}
+
+h3 {
+	color: gray;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.lista {
+	text-align: left;
+	font-size: 12px;
+}
+
+#contenedor {
+	font-family: Verdana, Times, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+img {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#foto {
+	border-radius: 100%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50px;
+}
+
+/*
+Hover hará cambios sobre la clase, cuando el mouse esté
+sobre el elemento.
+*/
+#foto:hover {
+	border: 3px dashed red;
+}
+
+/*
+Focus hará que en el momento en que se está haciendo la acción
+el elemento tenga un cambio especifico.
+*/
+.campo {
+	border: 1px solid black;
+	font: normal 12px Tahoma, Arial;
+}
+
+.campo:focus {
+	border: 3px solid pink;
+	font: bold 23px Tahoma, Arial;
+	outline: none;
+}
+
+/*
+visited hará cambiós en enlaces cuando ya han sido visitados
+previamente:
+*/
+
+#head {
+	background-color: blue;
+	border: 3px solid black;
+	border-radius: 50%;
+	color: gray;
+	display: block;
+	font-family: Verdana, serif;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width: auto;
+}
+
+p {
+	margin-left: auto;
+	margin-right: auto;
+	width: 400px;
+	font-weight: lighter;
+}
+
+#zahl {
+	color: orange;
+	font-family: Impact;
+	font-size: 25px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	font-style: italic;
+}
+
+a:hover {
+	color: green;
+}
+
+a:visited {
+	color: purple;
+}
+
+.left {
+	background-color: red;
+	border-radius: 10px;
+	box-shadow: 10px 10px 5px 0px gray;
+	float: left;
+	margin-left: 100px;
+	margin-bottom: 20px;
+	padding: 5px 10px;
+	text-align: center;
+}
+
+.right {
+	background-color: yellow;
+	border-radius: 10px;
+	box-shadow: 10px 10px 5px 0px gray;
+	float: right;
+	margin-right: 100px;
+	margin-bottom: 20px;
+	padding: 5px 10px;
+	text-align: center;
+}
+
+.footer {
+	background-color: gray; 
+	clear: both;
+	margin-top: 20px;	
+}
+
+#footer-text {
+	font-family: Impact;
+	color: lightgreen;
+	width: 600px;
+	text-align: center;
+}
+
+#footer-text:hover{
+	color: orange;
+}
+
+#menu {
+	color: gray;
+	border: 1px solid black;
+	margin: 0px auto;
+	text-align: center;
+}
+

@@ -1,37 +1,56 @@
-<!DOCTYPE <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
 	<title>My resume</title>
-	<link rel="stylesheet" type="text/css" href="ejercicio1.css">
+	<link rel="stylesheet" type="text/css" href="estilo.css">
 </head>
 <body>
 	<div id="head">
 		<h3>Hi, I am...</h3>
-		<img src="https://avatars2.githubusercontent.com/u/2580529?v=3&s=40" alt="Bild von mir" />
+		<img id="foto" src="https://avatars2.githubusercontent.com/u/2580529?v=3&s=40" alt="Bild von mir" />
 		<h4>Marc Schmitz</h4>
 	</div>
-	<p>I was born in 1979 in <em>Eschweiler</em>, Germany.
+
+	<div id="menu">
+		<a id="menu_entry" href="">point1</a> |
+		<a id="menu_entry" href="">point2</a> |
+		<a id="menu_entry" href="">point3</a> 
+	</div>
+
+	<input class="campo" type="text">
+
+	<p>I was born in <span id="zahl">1979</span> in <em>Eschweiler</em>, Germany.
 	After finishing school I worked one year in a hospital and afterwards studied music in
 	<strong>Maastricht</strong>, Netherland.</p>
+	<div class="left">
+		<p>I am currently working as...</p>
+		<div id="contenedor">
+			<ul class="lista">
+				<li>guitar teacher at <a href="http://www.mjoy-music.de/">MJoy Music</a></li>
+				<li>condutcor of the choir <a href="http://www.chor-lautstark.de/">LAUTSTARK</a></li>
+				<li>bass player of the band: <a href="http://www.jukebox-heroes.de/">Jukebox Heroes</a></li>
+				<li>composer/arranger for Big Band Music <!--<embed src="http://wp11131683.server-he.de/b_MP3s/BB/BB118_5th_Of_Beethoven.mp3" width="160" height="15"></embed>--></li>
+			</ul>
+		</div>
+	</div>
 
-	<p>I am currently working as...</p>
-	<ul>
-		<li>guitar teacher at <a href="www.mjoy-music.de/">MJoy Music</a></li>
-		<li>condutcor of the choir <a href="www.chor-lautstark.de/">LAUTSTARK</a></li>
-		<li>bass player of the band: <a href="www.jukebox-heroes.de/">Jukebox Heroes</a></li>
-		<li>composer/arranger for Big Band Music <embed src="http://wp11131683.server-he.de/b_MP3s/BB/BB118_5th_Of_Beethoven.mp3" width="160" height="15"></embed></li>
-	</ul>
+	<div class="right">
+		<h4>But...</h4>
+		<p>... I decided to change. And so I studied Business Computer Science at the ...</p>
+		<a href="www.fernuni-hagen.de"><img src="http://www.fernuni-hagen.de/images/webag/feulogo.gif" /></a>
 
-	<h4>But...</h4>
-	<p>... I decided to change. And so I studied Business Computer Science at the ...</p>
-	<a href="www.fernuni-hagen.de"><img src="http://www.fernuni-hagen.de/images/webag/feulogo.gif" /></a>
+		<p>Currently I am learning Web Development in Bogota at ...</p>
 
-	<p>Currently I am learning Web Development in Bogota at ...</p>
+		<div id="WTM">
+			<figure>
+				<a href="www.worldtechmakers.com"><img src="http://worldtechmakers.com/images/header-logo.png" alt="WTM Logo here" /></a>
+				<figcaption>World Tech Makers</figcaption>
+				</figure>
+		</div>
+	</div>
 
-	<div id="WTM">
-		<figure>
-		<a href="www.worldtechmakers.com"><img src="http://worldtechmakers.com/images/header-logo.png" alt="WTM Logo here" /></a>
-		<figcaption>World Tech Makers</figcaption>
+	<div class="footer">
+		<p id="footer-text">This is just a try-out. I am absolutely bad in choosing colors and stuff like this</p>
 	</div>
 </body>
 </html>
