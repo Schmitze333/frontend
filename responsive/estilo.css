@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Kaushan+Script|Corben|Amatic+SC);
 html {
   font-size:16px;
   height:100%;
@@ -9,58 +10,57 @@ html body {
 }
 
 html body img, html body video, html body audio {
-  display:block;
+  display:inline-block;
 }
 
-html body div {
-	padding: 3px;
+h2 {
+	font-family: 'Corben', cursive;
 }
 
-.content img {
-	border: 1px solid black;
-	display: inline-block;
-	margin: 5px auto;
-	vertical-align: top;
-	width: 200px;
-	height: 200px;
+h3 {
+	font-family: 'Kaushan Script', cursive;
 }
 
 .container {
-	border:1px solid red;
+  border:1px solid red;
   margin:0 auto;
   max-width:1024px;
   width:100%;
 }
 
 .information {
+	font-family: 'Amatic SC', cursive;
+	font-size: 1.6em;
 	border:1px solid green;
+	width:100%;
 }
 .image {
-	border:1px solid blue;
-	display:inline-block;
-	height:200px;
-	width:200px;
+	display:block;
+	max-width: 200;
+	width:100%;
 }
+
 .description {
-	border:1px solid darkblue;
 	display:inline-block;
-	margin-left:15px;
-	max-width: 600px;
-	vertical-align:top;
-	width:800px;
+	padding:1.25%;
+	margin-left:1.46484375%;
+	vertical-align: top;
+	max-width: 780px;
+	width:76.171875%;
 }
 .sidebar {
 	border:1px solid black;
 	display:inline-block;
-	vertical-align:top;
-	width:200px;
+	max-width: 198px;
+	width:19.53125%;
 }
 .content {
-	border:1px solid orange;
 	display:inline-block;
-	margin-left: 15px;
+	padding:1.282051282051282%;
+	margin-left:1.46484375%;
 	vertical-align:top;
-	width:800px;
+	max-width:780px;
+	width: 76.171875%;
 }
 
 #contact-information {
@@ -95,12 +95,45 @@ html body div {
 }
 
 .gallery img {
-	margin: 0px auto;
 	width: 100px;
 	height: 100px;
 }
 
+.gallery img:hover {
+	width: 102px;
+	height: 102px;
+}
 
+.visits {
+	text-align: center;
+}
+
+.visits h3 {
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: underline;
+	text-align: center;
+}
+.visits img {
+	margin:0 auto;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}
+
+@media all and (max-width:833px) {
+	.content {
+		margin-left:0;
+		display: block;
+	}
+
+	.image {
+		display:block;
+		width:100%;
+		text-align: center;
+		margin: 0 auto;
+	}
+}
 
 
 
